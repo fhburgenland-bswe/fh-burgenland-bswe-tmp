@@ -2,10 +2,18 @@ package io.muehlbachler.bswe;
 
 import org.springframework.stereotype.Service;
 
-// FIXME: add javadoc
+/**
+ * Service for string operations.
+ */
 @Service
 public class StringService {
-    // FIXME: add javadoc
+    /**
+     * Converts a string to upper case.
+     * If the string is null, the method returns null.
+     * 
+     * @param string the string to convert
+     * @return the upper case string
+     */
     public String toUpperCase(final String string) {
         // FIXME: implement
         return string;
